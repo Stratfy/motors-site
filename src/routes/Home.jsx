@@ -6,18 +6,18 @@ const Home = () => {
 
   const featuredCars = [
     {
-      id: 4,
-      name: 'Porsche Cayenne',
-      price: 'R$ 520.000',
-      year: '2024',
-      image: '🏎️'
-    },
-    {
       id: 1,
       name: 'BMW X5',
       price: 'R$ 450.000',
       year: '2024',
-      image: '�'
+      image: '🚙'
+    },
+    {
+      id: 2,
+      name: 'Mercedes-Benz C-Class',
+      price: 'R$ 320.000',
+      year: '2024',
+      image: '🚗'
     },
     {
       id: 3,
@@ -27,11 +27,11 @@ const Home = () => {
       image: '🚘'
     },
     {
-      id: 2,
-      name: 'Mercedes-Benz C-Class',
-      price: 'R$ 320.000',
+      id: 4,
+      name: 'Porsche Cayenne',
+      price: 'R$ 520.000',
       year: '2024',
-      image: '🚗'
+      image: '🏎'
     }
   ];
 
