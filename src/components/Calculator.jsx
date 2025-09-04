@@ -29,7 +29,7 @@ const Calculator = () => {
     setDisplay('0');
     setPreviousValue(null);
     setOperation(null);
-    setWaitingForNewValue(true); 
+    setWaitingForNewValue(false); 
   };
 
   const performOperation = (nextOperation) => {
